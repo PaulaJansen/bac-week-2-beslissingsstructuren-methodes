@@ -6,6 +6,7 @@ public class homework {
         hello();
 
         Scanner scanner = new Scanner(System.in);
+//        Scanner gebruikt in plaats van de waardes van de variabelen de hele tijd zelf te veranderen.
 
         System.out.println("Voer een nummer in: ");
         int number = scanner.nextInt();
