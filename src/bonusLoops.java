@@ -41,16 +41,25 @@ public class bonusLoops {
 
 //        Opdracht 5
         String[] elements = {"Er", "was", "eens", "een", "student", "die", "graag", "wilde", "leren", "", "Deze", "student", "haalde", "goede", "cijfers"};
-        boolean empty = false;
+        System.out.println("Opdracht 5: [");
 
-        for (int i = 0; i < elements.length; i++){
-            if(elements[i].equals(null)){
-                empty = true;
+        for (String s: elements){
+            if(!s.isEmpty()){
+                System.out.println(s + " ");
+            } else {
                 break;
             }
         }
-        System.out.println(elements[i]);
+        System.out.println("]\n");
 
+//        Opdracht 6
+//        boolean prime = true;
+        for (int i = 2; i <100; i++){
+            if(i % i == 0){
+                System.out.println(i + " ");
+            } else {
+            }
+        }
 
     }
 

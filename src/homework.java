@@ -52,24 +52,18 @@ public class homework {
     }
 
     public static void bartender(String name){
-        switch (name) {
-            case "Magarita":
+        switch (name.toLowerCase()) {
             case "magarita":
                 System.out.println("Mijn favoriete drankje is een magarita.");
                 break;
-            case "Gin tonic":
             case "gin tonic":
-            case "GT":
             case "gt":
                 System.out.println("Mijn favoriete drankje is een gin tonic.");
                 break;
-            case "Espresso martini":
             case "espresso martini":
-            case "Esma":
             case "esma":
                 System.out.println("Mijn favoriete drankje is een espresso martini");
                 break;
-            case "Daiquiri":
             case "daiquiri":
                 System.out.println("Mijn favoriete drankje is een daiquiri.");
                 break;
